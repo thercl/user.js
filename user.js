@@ -538,7 +538,7 @@ user_pref("_user.js.parrot", "1600 syntax error: the parrot rests in peace!");
  * 0=always (default), 1=only if base domains match, 2=only if hosts match
  * [SETUP-WEB] Breakage: older modems/routers and some sites e.g banks, vimeo, icloud, instagram
  * If "2" is too strict, then override to "0" and use Smart Referer extension (Strict mode + add exceptions) ***/
-user_pref("network.http.referer.XOriginPolicy", 2);
+user_pref("network.http.referer.XOriginPolicy", 0);
 /* 1602: control the amount of cross-origin information to send [FF52+]
  * 0=send full URI (default), 1=scheme+host+port+path, 2=scheme+host+port ***/
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
